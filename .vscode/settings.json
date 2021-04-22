@@ -1,0 +1,64 @@
+{
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        }
+    ],
+    "editor.formatOnSave": true,
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "127.0.0.1",
+            "port": 1433,
+            "askForPassword": true,
+            "driver": "MSSQL",
+            "name": "localhost",
+            "username": "SA",
+            "database": "QandA"
+        },
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "127.0.0.1",
+            "port": 1170,
+            "askForPassword": true,
+            "driver": "MSSQL",
+            "name": "localhost",
+            "database": "QandA",
+            "username": "SA"
+        },
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "127.0.0.1",
+            "port": 1433,
+            "askForPassword": true,
+            "driver": "MSSQL",
+            "name": "localhost",
+            "database": "QandA",
+            "username": "SA"
+        }
+    ],
+    "appService.deploySubpath": "backend",
+    "appService.defaultWebAppToDeploy": "/subscriptions/63a02715-8b35-4ecc-9f1e-744fc6eeec10/resourceGroups/WorldOfQandA/providers/Microsoft.Web/sites/worldofqanda"
+}
