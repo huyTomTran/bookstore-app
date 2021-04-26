@@ -55,22 +55,33 @@ export const Header: FC<RouteComponentProps> = ({ history, location }) => {
         box-shadow: 0 3px 7px 0 rgba(110, 112, 114, 0.21);
       `}
     >
-      {/* <a
+      <div>
+        {/* <a
         href="./" */}
-      <Link
-        to="/"
-        // put the styles in a css attribute on an HTML element in what is called a "tagged template literal"
-        // A template literal is a string enclosed by backticks ( `` ) that can span multiple lines
-        // and can include a JavaScript expression in curly braces, prefixed with a dollar sign ( ${expression} )
-        css={css`
-          font-size: 24px;
-          font-weight: bold;
-          color: ${gray1};
-          text-decoration: none;
-        `}
-      >
-        Q & A
-      </Link>
+        <Link
+          to="/"
+          // put the styles in a css attribute on an HTML element in what is called a "tagged template literal"
+          // A template literal is a string enclosed by backticks ( `` ) that can span multiple lines
+          // and can include a JavaScript expression in curly braces, prefixed with a dollar sign ( ${expression} )
+          css={css`
+            font-size: 24px;
+            font-weight: bold;
+            color: ${gray1};
+            text-decoration: none;
+          `}
+        >
+          Q & A
+        </Link>
+        <span
+          css={css`
+            margin-left: 10px;
+            font-size: 16px;
+            color: ${gray2};
+          `}
+        >
+          {process.env.REACT_APP_ENV || 'development'}
+        </span>
+      </div>
       {/* </a> */}
       <form onSubmit={handleSearchSubmit}>
         <input

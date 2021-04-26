@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0mcVOWpYs5uzPQ6eMi/GMAXwPmgm2LYZ5FNyifqyye0juBuMGEHz6pg2Xn7DcyQTGItKY9pxcfc6sTqvmjCy/g==",
+  "dgSpecHash": "mM+ceNz5+Co7mSlEIrBQSlMjaFouHmtwNMJ9WIU2mSw/7MUMKJpwmPmvVjzHRcgVS4za73saummaojODWtL3sw==",
   "success": true,
-  "projectFilePath": "/home/huy/school-projects/MyProjects/bookstore-app/backend/bookstore-app.csproj",
+  "projectFilePath": "/home/huy/Documents/bookstore-app/backend/bookstore-app.csproj",
   "expectedPackageFiles": [
     "/home/huy/.nuget/packages/dapper/2.0.35/dapper.2.0.35.nupkg.sha512",
     "/home/huy/.nuget/packages/dbup/4.4.0/dbup.4.4.0.nupkg.sha512",
