@@ -1,6 +1,7 @@
 # This bookstore application is built on TWO phases:
 
-### Phase 1: The Q&A (Questions & Answers) application with authenticated user by using auth0 platform (95% COMPLETED)
+### Phase 1: 
+The Q&A (Questions & Answers) application with authenticated user by using auth0 platform (95% COMPLETED)
    ###### Front-end: ReactJS
    ###### Database: Microsoft SQL Server
    ###### Backend: ASP.Net Core 3.1
